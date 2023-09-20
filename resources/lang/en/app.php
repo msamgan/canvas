@@ -151,4 +151,7 @@ return [
     'your_profile' => 'Your profile',
     'your_stats' => 'Your stats',
     'your_weekly_writer_summary_for' => 'Your weekly writer summary for',
+    'pages' => 'Pages',
+    'new_page' => 'New page',
+    'you_have_no_pages' => 'You have no pages',
 ];

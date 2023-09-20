@@ -55,6 +55,9 @@
                         <router-link :to="{ name: 'posts' }" class="dropdown-item">
                             <span>{{ trans.posts }}</span>
                         </router-link>
+                        <router-link :to="{ name: 'pages' }" class="dropdown-item">
+                            <span>{{ trans.pages }}</span>
+                        </router-link>
                         <router-link v-if="isAdmin" :to="{ name: 'users' }" class="dropdown-item">
                             <span>{{ trans.users }}</span>
                         </router-link>

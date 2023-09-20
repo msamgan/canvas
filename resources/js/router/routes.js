@@ -10,6 +10,7 @@ import TagList from '../views/TagList';
 import TopicList from '../views/TopicList';
 import UserList from '../views/UserList';
 import settings from '../store/modules/settings';
+import PageList from '../views/PageList.vue';
 
 let isAdmin = settings.state.user.role === 3;
 
@@ -124,6 +125,11 @@ export default [
                 next({ name: 'home' });
             }
         },
+    },
+    {
+        path: '/pages',
+        name: 'pages',
+        component: PageList,
     },
     {
         path: '*',
